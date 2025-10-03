@@ -1,15 +1,6 @@
-# uv-python-starter-template
+# s3_vectors_rag_hands_on
 
-A modern Python project template using uv package manager with development best practices.
-
-## Overview
-
-This is a starter template for Python projects that includes:
-- Modern dependency management with uv
-- Pre-configured development tools (ruff, pyright, pytest)
-- Pydantic settings for configuration management
-- Pre-commit hooks for code quality
-- Testing setup with pytest and coverage
+A hands-on project for S3 vectors RAG implementation.
 
 ## Usage
 
@@ -18,13 +9,16 @@ This is a starter template for Python projects that includes:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd uv-python-starter-template
+cd s3_vectors_rag_hands_on
 
 # Install dependencies
 uv sync
 
 # Install development dependencies
 uv sync --dev
+
+# Install pre-commit hooks
+uv run pre-commit install
 ```
 
 ### Development
@@ -46,7 +40,7 @@ uv run ruff format .
 ### Running the application
 
 ```bash
-uv run uv-python-starter-template
+uv run s3_vectors_rag_hands_on
 ```
 
 ## Project Structure
@@ -54,9 +48,8 @@ uv run uv-python-starter-template
 ```
 .
 ├── src/
-│   └── uv_python_starter_template/
+│   └── s3_vectors_rag_hands_on/
 │       ├── __init__.py
-│       ├── calculator.py
 │       └── config.py
 ├── tests/
 ├── pyproject.toml
