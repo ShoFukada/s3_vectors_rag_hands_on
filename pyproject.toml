@@ -9,6 +9,7 @@ authors = [
 license = { file = "LICENSE" }
 requires-python = ">=3.12"
 dependencies = [
+    "boto3>=1.40.44",
     "pydantic-settings>=2.10.1",
 ]
 
@@ -54,6 +55,9 @@ ignore = [
     "TRY003", # Long exception messages allowed
     "EM101",  # Exception string literals allowed
     "COM812", # Trailing comma missing (conflicts with formatter)
+
+    # Function arguments
+    "PLR0913", # Too many arguments allowed
 ]
 
 
