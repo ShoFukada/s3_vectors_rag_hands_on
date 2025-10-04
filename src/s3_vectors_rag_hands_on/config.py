@@ -50,7 +50,7 @@ class Settings(BaseSettings):
         "arn:aws:bedrock:us-east-1:239339588912:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0"
     )
     LOCAL_DATA_DIR: str = "data/input"
-    BEDROCK_ROLE_NAME: str = "BedrockKnowledgeBaseRole"
+    BEDROCK_ROLE_NAME: str
     KNOWLEDGE_BASE_ID: str | None  # infra.provision_all() の出力をenvから渡す
     DATA_SOURCE_ID: str | None  # infra.provision_all() の出力をenvから渡す
 
