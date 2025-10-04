@@ -28,12 +28,6 @@ def find_env_file() -> str | None:
 
 
 class Settings(BaseSettings):
-    """Project settings with editable in-repo defaults.
-
-    Except for ``OPENAI_API_KEY`` (keep it outside version control), you can hard-code
-    values here for local work. Environment variables still override these defaults
-    when present.
-    """
 
     model_config = SettingsConfigDict(
         env_file=find_env_file(),
@@ -56,7 +50,7 @@ class Settings(BaseSettings):
         "arn:aws:bedrock:us-east-1:239339588912:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0"
     )
     LOCAL_DATA_DIR: str = "data/input"
-    BEDROCK_ROLE_NAME: str
+    BEDROCK_ROLE_NAME: str = "BedrockKnowledgeBaseRole"
     KNOWLEDGE_BASE_ID: str | None  # infra.provision_all() の出力をenvから渡す
     DATA_SOURCE_ID: str | None  # infra.provision_all() の出力をenvから渡す
 
