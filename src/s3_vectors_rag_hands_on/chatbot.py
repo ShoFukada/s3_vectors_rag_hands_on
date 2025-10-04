@@ -1,9 +1,3 @@
-"""Bedrock RAG smoke tests for the provisioned knowledge base.
-
-The original interactive REPL has been replaced with scripted scenarios so we can
-quickly validate that metadata filters and general queries work as expected.
-"""
-
 from __future__ import annotations
 
 import json
