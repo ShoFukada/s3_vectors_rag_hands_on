@@ -239,7 +239,7 @@ $RECYCLE.BIN/
 # Project specific
 # Add any project-specific ignores here
 logs/
-data/
+# data/
 secrets/
 .secrets/
 temp/

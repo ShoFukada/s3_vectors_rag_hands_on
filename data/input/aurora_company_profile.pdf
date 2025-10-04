@@ -1,0 +1,37 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
+4 0 obj << /Length 569 >> stream
+BT
+/F1 24 Tf
+72 740 Td
+(Aurora Dynamics Company Profile) Tj
+/F1 12 Tf
+0 -32 Td
+16 TL
+(Aurora Dynamics architects secure AWS-native platforms for data-intensive industries.) Tj
+T*
+(Our consulting pods cover strategy, migration, and managed services with 24/7 response.) Tj
+T*
+(Key industries include biopharma, retail operations, and climate-tech logistics.) Tj
+T*
+(Differentiators: governed lakehouse blueprints, responsible AI accelerators, and FinOps maturity frameworks.) Tj
+T*
+(Headquarters in Seattle with delivery centers in Dublin, Singapore, and Toronto.) Tj
+ET
+endstream endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000861 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+931
+%%EOF
