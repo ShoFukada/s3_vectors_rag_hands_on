@@ -28,7 +28,6 @@ def find_env_file() -> str | None:
 
 
 class Settings(BaseSettings):
-
     model_config = SettingsConfigDict(
         env_file=find_env_file(),
         env_file_encoding="utf-8",
