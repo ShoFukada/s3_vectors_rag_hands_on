@@ -40,7 +40,6 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
     )
 
-    OPENAI_API_KEY: str | None = None
     AWS_REGION: str
     AWS_PROFILE: str | None = None
     AWS_ACCESS_KEY_ID: str | None = None
